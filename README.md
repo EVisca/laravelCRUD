@@ -68,3 +68,11 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 ## Local Server and Database
 
 Local Server and Database used respectively with XAMPP and phpMyAdmin
+
+## Setup Enviroment
+
+1 - Install XAMPP and PHP version compatible with Laravel 8 => https://www.apachefriends.org/download.html
+2 - Install Composer using the path where PHP was installed using XAMPP => https://getcomposer.org/download/
+3 - Install Host File Editor => https://hostsfileeditor.com/
+4 - Create a fresh laravel 8 app using composer create-project laravel/laravel app (not required if already using this project)
+5 - Setup both environment files in C:\xampp\apache\conf\extra\httpd-vhosts.conf and also the .env file from the laravel project to meet project requirements (not required if already using this project)
